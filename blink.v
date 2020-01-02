@@ -13,5 +13,9 @@ module Blink(input CLK_IN, output GLED5, output RLED1, output RLED2, output RLED
 
 	// wire up the red LEDs to the counter MSB
 	assign RLED1 = counter[WIDTH-1];
+	assign RLED2 = counter[WIDTH-1];
+	assign RLED3 = counter[WIDTH-1];
+	assign RLED4 = counter[WIDTH-1];
+	assign GLED5 = counter[WIDTH-1];
 
 endmodule

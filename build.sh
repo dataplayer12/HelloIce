@@ -40,3 +40,4 @@ echo Converting ASCII output to bitstream
 icepack $MAIN.txt $MAIN.bin
 echo Sending bitstream to device
 iceprog ${ICEPROG_ARGS} $MAIN.bin
+rm $MAIN.bin $MAIN.txt $MAIN.blif

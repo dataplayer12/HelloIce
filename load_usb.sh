@@ -1,0 +1,1 @@
+sudo kextunload -v -b com.FTDI.driver.FTDIUSBSerialDriver
